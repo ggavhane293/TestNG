@@ -35,6 +35,7 @@ public class Parallel {
 		WebDriverManager.firefoxdriver().setup();
 		driver= new FirefoxDriver();
 		driver.get("https://www.google.com/");
+		driver.getTitle();
 		Thread.sleep(3000);
 		driver.close();
 	}
