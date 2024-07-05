@@ -37,6 +37,7 @@ public class IteratorClass {
 	System.out.println(driver.getTitle());
 	driver.switchTo().window(child1);
 	driver.close();
+	//close the browser
 	}
 
 }
