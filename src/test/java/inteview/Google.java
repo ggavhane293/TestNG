@@ -22,7 +22,7 @@ public class Google {
 		driver.get("https://www.google.com/");
 		driver.findElement(By.xpath("//textarea[@title=\"Search\"]")).sendKeys("testing");
 		driver.findElement(By.xpath("//textarea[@title=\"Search\"]")).sendKeys(Keys.ENTER);
-		//search the any text
+		//search the any t
 		
 		
 
