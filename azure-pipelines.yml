@@ -9,11 +9,14 @@ variables:
 
 steps:
 
+
+    
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
-    mavenOptions: '$(MAVEN_OPTS)'
+    mavenOptions: '-e -X'
     goals: 'clean install'
+
 
 - script: |
     # Start the browser driver in the background
